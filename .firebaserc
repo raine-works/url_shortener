@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "raineworks-4f78a"
+  },
+  "targets": {
+    "raineworks-4f78a": {
+      "hosting": {
+        "url-shortener": [
+          "url-shortener-265a6"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "url_shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy:func": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "author": "Raine Petersen",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "axios": "^0.24.0",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1",
+    "vite": "^2.6.4"
+  }
+}
